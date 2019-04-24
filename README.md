@@ -13,6 +13,16 @@ We report on experiments conducted on the recently released Sussex-Huawei locomo
 ## Getting Started
 
 ### Prerequisites
+* `numpy`
+* `TensorFlow`
+* `scikit-optimize`
+* `fanova` to install, please follow the steps [here](https://automl.github.io/fanova/install.html)
+
+If you are using `pip` package manager, you can simply install all requirements via the following command(s):
+
+    python -m virtualenv .env -p python3 [optional]
+    source .env/bin/activate [optional]
+    pip3 install -r requirements.txt
 
 ### Installing
 #### Get the dataset
@@ -23,11 +33,11 @@ We report on experiments conducted on the recently released Sussex-Huawei locomo
 ### Bayesian optimization
 In order to run Bayesian optimization, you can issue the following command:
 
-    python3 shl-nas --bayesopt
+    python3 shl-nas.py --bayesopt
     
 Additionally, you can specify a subset of the data generators you want to apply Bayesian optimization on as follows:
 
-    python3 shl-nas --bayesopt --position {bag|torso|hand|hips}
+    python3 shl-nas.py --bayesopt --position {bag|torso|hand|hips}
 
 ### Functional analysis of variance
 You can find a complete notebook showing the functional analysis of variance inside `notebooks/` folder.
