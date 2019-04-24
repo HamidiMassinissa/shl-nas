@@ -33,11 +33,11 @@ If you are using `pip` package manager, you can simply install all requirements 
 ### Bayesian optimization
 In order to run Bayesian optimization, you can issue the following command:
 
-    python3 shl-nas.py --bayesopt
+    python3 shl-nas.py --run bayesopt
     
 Additionally, you can specify a subset of the data generators you want to apply Bayesian optimization on as follows:
 
-    python3 shl-nas.py --bayesopt --position {bag|torso|hand|hips}
+    python3 shl-nas.py --run bayesopt --position {bag|torso|hand|hips}
 
 ### Functional analysis of variance
 You can find a complete notebook showing the functional analysis of variance inside `notebooks/` folder.
