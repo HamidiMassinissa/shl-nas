@@ -26,7 +26,7 @@ If you are using `pip` package manager, you can simply install all requirements 
 
 ### Installing
 #### Get the dataset
-1. You can get the preview of the SHL dataset from [here](http://www.shl-dataset.org/download/#shldataset-preview). Make sure to put the downloaded files into `./data/` folder.
+1. You can get the preview of the SHL dataset (`tar.gz` files) from [here](http://www.shl-dataset.org/download/#shldataset-preview). Make sure to put the downloaded files into `./data/` folder.
 2. Run `extract_data.sh` script which will extract the dataset into `./generated/tmp/` folder.
 
 ## Running
