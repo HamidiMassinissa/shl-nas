@@ -143,5 +143,6 @@ tags
 # specific to this project
 *.mmap
 tmp/
+data/
 *.err
 *.out
