@@ -1,0 +1,19 @@
+
+f.get_most_important_pairwise_marginals()
+
+Out[6]:
+OrderedDict([(('learning rate', 'num_units_dense_layer'),
+              0.020320924684636185),
+             (('kernel size 7_2', 'num_units_dense_layer'),
+              0.013310734920263963),
+             (('kernel size 7_1', 'num_units_dense_layer'),
+              0.009026816290823502),
+             (('learning rate', 'overlap'), 0.008042495759775782),
+             (('num_units_dense_layer', 'overlap'), 0.007319696774907135),
+             (('kernel size 5_3', 'num_units_dense_layer'),
+              0.0073133853679817505),
+             (('kernel size 6_1', 'num_units_dense_layer'),
+              0.0067456004677216895),
+             (('kernel size 7_1', 'learning rate'), 0.006685451709444201),
+             (('kernel size 7_2', 'learning rate'), 0.006424298962149865),
+             (('kernel size 6_2', 'learning rate'), 0.006329504236784871)])
