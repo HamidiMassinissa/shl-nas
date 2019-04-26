@@ -42,6 +42,11 @@ Additionally, you can specify a subset of the data generators you want to apply 
 ### Functional analysis of variance
 You can find a complete notebook showing the functional analysis of variance inside `notebooks/` folder.
 
+### Training a single model
+Similarly, you can train a single model by issuing the following command:
+
+    python3 shl-nas.py --run trainSingleModel [--position {bag|torso|hand|hips}]
+
 ## Authors (Contact)
 * Massinissa Hamidi (hamidi@lipn.univ-paris13.fr)
 * Aomar Osmani
